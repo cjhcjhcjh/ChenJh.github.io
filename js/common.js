@@ -13,3 +13,7 @@ var backToTopFun = function() {
 		$(window).on("scroll",backToTopFun);
 		backToTopFun();
 	});
+
+function detail(page) {
+    parent.location.href=page;
+}
